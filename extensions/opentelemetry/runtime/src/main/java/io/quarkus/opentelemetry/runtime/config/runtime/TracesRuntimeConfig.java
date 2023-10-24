@@ -46,5 +46,5 @@ public interface TracesRuntimeConfig {
      */
     @WithName("sampler.arg")
     @WithDefault("1.0d")
-    Optional<Double> samplerArg();
+    Optional<String> samplerArg();
 }
